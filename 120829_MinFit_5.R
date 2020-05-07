@@ -1,3 +1,10 @@
+####
+# R script for fitting bacterial growth rates to enzyme kinetic data.
+# The inputs are two files one containing bacterial growth rates and a second file containting the enzyme kinetics data.
+# The output are tables containing the fitting data and a plot with the predicted growth rates vs kinetic parameters.
+# Author: Andres Benitez
+####
+
 rm(list=ls())
 #Read data for growth rates and kinetics.
 grates = read.table('GrowthRates_Norm3-2.txt',header = TRUE)
