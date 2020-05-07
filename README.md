@@ -7,3 +7,7 @@ The script finds fit values the unknown parameters of a mathematical model for f
 
 Robustness is tested by using a bootstrap method where each mutants is sequentially set aside and values are fit using the remaining mutants, and then the predicted growth rate for the mutant that has been set aside is calculated and compared to the known value.
 
+The script functions by itself and requires two data files (see examples), one containing the enzyme kinetics data and a second file containing bacterial growth rates.
+
+The script does not have any dependencies outside the core R packages loaded by default.  
+
