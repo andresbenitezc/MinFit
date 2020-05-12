@@ -3,6 +3,7 @@
 # The inputs are two files one containing bacterial growth rates and a second file containting the enzyme kinetics data.
 # The output are tables containing the fitting data and a plot with the predicted growth rates vs kinetic parameters.
 # Author: Andres Benitez
+#Walkiewicz K, Benitez Cardenas AS, Sun C, Bacorn C, Saxer G, Shamoo Y. Small changes in enzyme function can lead to surprisingly large fitness effects during adaptive evolution of antibiotic resistance. Proc Natl Acad Sci U S A. 2012;109(52):21408‐21413. doi:10.1073/pnas.1209335110
 ####
 
 rm(list=ls())
